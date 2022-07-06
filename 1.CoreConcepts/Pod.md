@@ -23,8 +23,10 @@ spec:
      image: nginx
 
 ```
-
 - problem
+
+
+
 ![img.png](images/img.png)
 ```
 kubectl expose redis --port 6379 --name= redis-service
