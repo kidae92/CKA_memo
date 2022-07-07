@@ -74,3 +74,4 @@ spec:
 
 
 - --dry-run=client -o yaml > ooo.yaml 활용을 기본적으로 하는 것이 편하다
+- 그리고 쿠버네티스 공식 홈페이지 활용도 잘해야한다.
