@@ -32,5 +32,7 @@ kubectl run static-busybox --image=busybox --dry-run=client -o yaml --command --
 ps -aux | grep kubelet
 --config 경로 확인
 거기에 있는 yaml 파일 확인해서 static pod를 어디서 만드는지 확인
-static pod 위치 들어가서 그냥 파일 삭제하면 됨. 다른 명령어 필요없음  
+static pod 위치 들어가서 삭제. 다른 명령어 필요없음. 그리고 마스터에서 pod delete 명령어 주면됨
+static pod yaml파일이 해당 노드에 있을 때는 삭제 명령줘도 안없어지고, ssh 접속후 해당 yaml파일 삭제후 마스터에서 pod delete 명령어 주면 없어짐
+  
 ```
