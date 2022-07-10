@@ -55,7 +55,7 @@ selector:
     type: front-end 
 ```
 
-![img.png](img.png)
+![img.png](images/img.png)
 ```
 kubectl get pods --selector env=dev --no-headers | wc -l
 ```

@@ -1,0 +1,3 @@
+- event-simulator를 통해 로그 관찰 가능
+- event-simulator pod을 생성하고 kubectl logs -f <pod name>
+- 다중 컨테이너의 경우 kubectl logs -f <pod name> <container name>

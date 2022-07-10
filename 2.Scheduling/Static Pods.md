@@ -21,12 +21,12 @@ ps -aux | grep kubelet
 --config 붙은거 찾아야함(여기서는 /etc/kubernetes/manifest)
 ```
 
-![img_1.png](img_1.png)
+![img_1.png](images/img_1.png)
 ```
 kubectl run static-busybox --image=busybox --dry-run=client -o yaml --command -- sleep 1000 > ./test.yaml
 ```
 - 다른 노드에 static pod으로 형성되어 있는 경우
-![img_2.png](img_2.png)
+![img_2.png](images/img_2.png)
 ```
 해당 노드로 ssh 접속
 ps -aux | grep kubelet

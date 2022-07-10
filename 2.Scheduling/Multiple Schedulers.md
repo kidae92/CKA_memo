@@ -21,3 +21,7 @@ spec:
 kubectl get event
 kubectl logs my-custom-scheduler --name-space=kube-system
 ```
+![img_3.png](images/img_3.png)
+```
+kubectl create configmap my-scheduler-config --from-file=/root/my-scheduler-config.yaml
+```
