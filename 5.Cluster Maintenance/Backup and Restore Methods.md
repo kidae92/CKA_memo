@@ -10,12 +10,12 @@ etcdctl snapshot save -h
 etcdctl snapshot restore -h
 ```
 
-![img.png](img.png)
-![img_1.png](img_1.png)
+![img.png](images/img.png)
+![img_1.png](images/img_1.png)
 
-![img_2.png](img_2.png)
+![img_2.png](images/img_2.png)
 ```
 etcdctl snapshot restore --data-dir /var/lib/etcd-backup /opt/snapshot-pre-boot.db
 # 그리고 yaml파일에서 volumes hostPath를 위에 --data-dir로 바꿔줘야함 
 ```
-![img_3.png](img_3.png)
+![img_3.png](images/img_3.png)
