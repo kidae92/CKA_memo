@@ -17,7 +17,7 @@ data:
 ```
 - 이 또한 하드코딩 되어서 안전하지가 않다.
 - echo -n 'mysql' | base64  (인코딩해서 넣어야 안전하다)
-- echo -n 'zzsdf3se' | base42 --decode (디코딩)
+- echo -n 'bXlzcWw=' | base64 --decode (디코딩)
 ```
 apiVersion: v1
 kind: Pod
