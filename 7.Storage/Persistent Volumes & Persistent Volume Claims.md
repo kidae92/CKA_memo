@@ -89,3 +89,5 @@ spec:
       persistentVolumeClaim:
         claimName: myclaim
 ```
+
+- (PV가 꼭 노드 안에 있지 않고 외장 스토리지를 사용하는 경우도 많음)   PVC를 통하여 PV가 생성되며 PVC는 Storage Class에서 할당할 수 있음
