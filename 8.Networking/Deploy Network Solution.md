@@ -1,4 +1,4 @@
-![img_14.png](img_14.png)
+![img_14.png](images/img_14.png)
 - weave-net의 기본 IP대역은 10.32.0.0/12라서 호스트 시스템 ip address와 겹친다
 - 대역을 바꿔줘야함
 ```

@@ -1,0 +1,3 @@
+- pod 접근이 제대로 안될 경우, label selector 확인
+- pod 재시작으로 fail 로그가 안남을 때 -> kubectl logs web -f --previous
+- object name, target port, DB env 정보, pod만 보지말고 deployment도 봐라

@@ -1,4 +1,4 @@
-![img_16.png](img_16.png)
+![img_16.png](images/img_16.png)
 - 로드밸런싱, 인증, SSL, URL 수행
 - nginx-ingress 이미지 배포, 이를 노출하는 서비스, ConfigMap, ServiceAccount
 ```
